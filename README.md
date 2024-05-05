@@ -39,29 +39,34 @@ calc.html
 <h1 align="center">SHANMUGAKARTHIK 212223220105</h1>
 <div class="calculator">
     <input type="text" id="display" readonly>
+    <input type="button" value="(" onclick="addToDisplay('(')">
+    <input type="button" value=")" onclick="addToDisplay(')')">
+    <input type="button" value="C" onclick="clearDisplay('')">
+    <input type="button" value="%" onclick="addToDisplay('%')">
     <input type="button" value="7" onclick="addToDisplay('7')">
     <input type="button" value="8" onclick="addToDisplay('8')">
     <input type="button" value="9" onclick="addToDisplay('9')">
-    <input type="button" value="/" onclick="addToDisplay('/')">
+    <input type="button" value="*" onclick="addToDisplay('*')">
     <input type="button" value="4" onclick="addToDisplay('4')">
     <input type="button" value="5" onclick="addToDisplay('5')">
     <input type="button" value="6" onclick="addToDisplay('6')">
-    <input type="button" value="*" onclick="addToDisplay('*')">
+    <input type="button" value="-" onclick="addToDisplay('-')">
     <input type="button" value="1" onclick="addToDisplay('1')">
     <input type="button" value="2" onclick="addToDisplay('2')">
     <input type="button" value="3" onclick="addToDisplay('3')">
-    <input type="button" value="-" onclick="addToDisplay('-')">
+    <input type="button" value="+" onclick="addToDisplay('+')">
     <input type="button" value="0" onclick="addToDisplay('0')">
     <input type="button" value="." onclick="addToDisplay('.')">
-    <input type="button" value="=" onclick="calculate()">
-    <input type="button" value="+" onclick="addToDisplay('+')">
-    <input type="button" value="C" onclick="clearDisplay()">
+    <input type="button" value="/" onclick="addToDisplay('/')">
+    <input type="button" value="=" onclick="calculate('')">
+   
 </div>
 
 <script src="index.js"></script>
 
 </body>
 </html>
+
 
 style.css
 .calculator {
@@ -111,7 +116,7 @@ function clearDisplay() {
 }
 ~~~
 ## OUTPUT:
-![alt text](<Screenshot 2024-04-23 144523.png>)
-![alt text](<Screenshot 2024-04-23 144535.png>)
+![alt text](<Screenshot (3).png>)
+![alt text](<Screenshot (4).png>)
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
