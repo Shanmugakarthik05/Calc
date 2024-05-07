@@ -68,6 +68,7 @@ calc.html
 </html>
 
 
+
 style.css
 .calculator {
     width: 220px;
@@ -116,7 +117,7 @@ function clearDisplay() {
 }
 ~~~
 ## OUTPUT:
-![alt text](<Screenshot (3).png>)
-![alt text](<Screenshot (4).png>)
+![alt text](<Screenshot (9).png>)
+![alt text](<Screenshot (10).png>)
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
